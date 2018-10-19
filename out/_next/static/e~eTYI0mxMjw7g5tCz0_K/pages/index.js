@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{209:function(e,n,t){__NEXT_REGISTER_PAGE("/",function(){return e.exports=t(210),{page:e.exports.default}})},210:function(e,n,t){"use strict";t.r(n);var a=t(1),l=t.n(a),u=t(50);n.default=function(){return l.a.createElement("div",null,l.a.createElement(u.a,null),l.a.createElement("p",null,"Hello Next.js"))}}},[[209,1,0]]]);
