@@ -11,7 +11,16 @@ app.prepare()
 
   server.get('/p/:id', (req, res) => {
     const actualPage = '/post'
+    // const queryParams = { id: req.id }
+    // const queryParams = { title: "makapaka"z } 
     const queryParams = { title: req.params.id } 
+    app.render(req, res, actualPage, queryParams)
+  })
+
+  server.get('/b/:id', (req, res) => {
+    const actualPage = '/bat'
+    const queryParams = { id: req.params.id }
+    console.log(queryParams)
     app.render(req, res, actualPage, queryParams)
   })
 
